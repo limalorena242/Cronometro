@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+body { 
+
+display:flex;
+flex-direction: column;
+align-items: center;
+gap: 2rem;
+padding-top: 3rem;
+background-color: #f1f1f1;
+height: 100vh;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 2rem;
+    padding-top: 3rem;
+    background-color: #f1f1f1;
+    height: 100vh;
+
+}
+h1 {
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+    
+
+}
+
+.timer {
+    display: flex;  
+    font-size:55px ;
+    font-weight: bold;
+    color:#333;
+
+}
+  
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    cor:#172953;
+    min-width: 90px;
+
+}
+.separator {
+    padding: 0 10px ;
+    color: #525763;
+}
+
+#milliseconds{
+    font-size: 30px;
+    color:#70737a ;
+}
+
+.buttons{
+    display: flex;
+    gap: 3rem;
+
+    
+
+}
+.btn{
+ /*adulterei aquiiii se der merda na frente e embolar*/
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer; /* aqui mudei o ponteiro a borda e apliquei uma transição*/ 
+    border:1px solid #ccc;
+    transition: all  0.5s ease-in-out;
+
+}
+
+.btn:hover{
+    transform: scale(1.1); /* aqui trasfomei os botoes ele estão aumentando quando  curssor passa por ele*/
+
+
+} 
+#startBtn{
+    background-color: #175cff;
+    color: #fff;
+    
+
+
+}
+#pausedBtn,
+#resumeBtn{
+    display: none;
+
+}
+   
